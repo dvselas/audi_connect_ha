@@ -768,7 +768,7 @@ class AudiService:
         if "idkClientIDAndroidLive" in marketcfg_json:
             self._client_id = marketcfg_json["idkClientIDAndroidLive"]
 
-        self._authorizationServerBaseURLLive = "https://emea.bff.cariad.digital/login/v1/audi"
+        self._authorizationServerBaseURLLive = "https://emea.bff.cariad.digital/user-login/v1/authorize"
         if "authorizationServerBaseURLLive" in marketcfg_json:
             self._authorizationServerBaseURLLive = marketcfg_json[
                 "authorizationServerBaseURLLive"
