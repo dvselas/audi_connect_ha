@@ -754,7 +754,7 @@ class AudiService:
         ]["defaultLanguage"]
 
         # Dynamic configuration URLs
-        marketcfg_url = "https://content.app.my.audi.com/service/mobileapp/configurations/market/{c}/{l}?v=4.15.0".format(
+        marketcfg_url = "https://content.app.my.audi.com/service/mobileapp/configurations/market/{c}/{l}?v=4.16.0".format(
             c=self._country, l=self._language
         )
         openidcfg_url = "https://{0}.bff.cariad.digital/login/v1/idk/openid-configuration".format(
